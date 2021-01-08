@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Blog, Programlama, Yazılım">
+    <meta name="description" content="Kişisel blog sayfasıdır.">
+    <meta name="author" content="Özge Çetin">
+    <title>Özge Çetin | Kişisel Blog Sayfası</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Tablet CSS -->
+    <link rel="stylesheet" media="(max-width: 768px)" href="css/tablet.css">
+    <!-- Mobile CSS -->
+    <link rel="stylesheet" media="(max-width: 500px)" href="css/mobile.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+    <header class="dark-blue-bg white-text">
+        <div class="container">
+            <nav id="navbar">
+                <h1>Özge Çetin</h1>
+                <ul>
+                    <li><i class="fas fa-home"></i><a href="#home" class="white-text">Anasayfa</a></li>
+                    <li><i class="fas fa-award"></i><a href="#about" class="white-text">Hakkımda</a></li>
+                    <li><i class="fas fa-laptop-code"></i><a href="#experience" class="white-text">Deneyimlerim</a></li>
+                    <li><i class="far fa-comment"></i><a href="#contact" class="white-text">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="text-center">
+        <img src="images/me.jpeg" alt="Özge ÇEtin">
+        <h2 class="dark-pink-text margin-top-12">Özge ÇETİN</h2>
+        <h5 class="grey-text italic-text">Computer Engineer</h5>
+        <a href="#contact">İletişime Geç</a>
+    </section>
+
+    <hr style="width: 80vw; margin:auto; border: 1px solid #AC3B61;">
+
+    <section id="about" class="dark-blue-bg">
+        <i class="fas fa-award white-text"></i>
+        <h3 class="light-blue-text">Hakkımda</h3>
+        <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime commodi dolore aspernatur nihil amet ullam cum vel id hic, ex est neque ut corporis expedita accusamus dolorem laborum eaque nisi aperiam. Ipsum aperiam incidunt, ipsam fuga, perferendis debitis laboriosam aspernatur natus harum magni hic expedita. Eius aspernatur cupiditate nulla adipisci. Reprehenderit accusamus nemo nesciunt expedita numquam id asperiores cupiditate magnam vitae praesentium libero vel optio quod, ab animi possimus magni fugit adipisci consequatur? Corporis consequuntur perspiciatis dignissimos sunt vel facere provident modi vero hic. Ipsam libero aliquam ipsa praesentium, quos fuga maxime ut repellat voluptate quidem eos nesciunt vel aperiam?</p>
+    </section>
+    
+    <hr style="width: 80vw; margin:auto; border: 1px solid #AC3B61;">
+
+    <section id="experience" class="text-center">
+        <h2 class="dark-blue-text">Deneyimler</h2>
+        <div class="experience-items">
+            <article class="experience-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3 class="dark-pink-text">Aselsan</h3>
+                <h6 class="dark-blue-text">Stajyer</h6>
+                <p class="grey-text">1 ay</p>
+            </article>
+            <article class="experience-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3 class="dark-pink-text">Digitus</h3>
+                <h6 class="dark-blue-text">Gönüllü | Android</h6>
+                <p class="grey-text">1 ay</p>
+            </article>
+            <article class="experience-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3 class="dark-pink-text">MargenTech</h3>
+                <h6 class="dark-blue-text">Gönüllü | Unity3D</h6>
+                <p class="grey-text">3 ay</p>
+            </article>
+        </div>
+    </section>
+
+    <hr style="width: 80vw; margin:auto; border: 1px solid #AC3B61;">
+
+    <footer id="contact">
+        <h2 class="text-center">Bana Ulaşın</h2>
+        <form>
+            <label for="name">İsminiz</label>
+            <input type="text" name="name" id="name" placeholder="İsminizi giriniz">
+            <label for="email">Maliniz</label>
+            <input type="email" name="email" id="email" placeholder="Emailinizi giriniz">
+            <label for="message">Mesajınız</label>
+            <textarea type="text" name="message" id="message" placeholder="Mesajınızı giriniz"></textarea>
+            <button type="submit" class="btn">Gönder</button>        
+        </form>
+    </footer>
+
+</body>
+</html>

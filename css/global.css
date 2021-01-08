@@ -1,0 +1,59 @@
+.text-center {
+    text-align: center;
+}
+
+.dark-blue-bg {
+    background-color: #123C69;
+}
+
+.dark-blue-text {
+    color: #123C69;
+}
+
+.light-blue-bg {
+    background-color: #90CAF9;
+}
+
+.light-blue-text {
+    color: #90CAF9;
+}
+
+.dark-pink-bg {
+    background-color: #AC3B61;
+}
+
+.light-pink-bg {
+    background-color: #EDC7B7;
+}
+
+.light-pink-text {
+    color: #EDC7B7;
+}
+
+.dark-pink-text {
+    color: #AC3B61;
+}
+
+.grey-bg {
+    background-color: #BAB2B5;
+}
+
+.grey-text {
+    color: #BAB2B5;
+}
+
+.white-bg {
+    background-color: #EEE2DC;
+}
+
+.white-text {
+    color: #EEE2DC;
+}
+
+.margin-top-12 {
+    margin-top: 0.75rem;
+}
+
+.italic-text {
+    font-style: italic;
+}

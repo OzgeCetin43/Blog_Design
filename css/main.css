@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+#navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.75rem;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li {
+    padding: 0.5rem;
+}
+
+#navbar ul li:last-child {
+    padding-right: 0;
+    margin: 0;
+}
+
+#navbar ul li i{
+    padding: 0 5px 0 0;
+    font-size: 0.75vw;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 0.8vw;
+}
+
+#navbar ul li a:hover{
+    color:#90CAF9;
+}
+.container {
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
+/* Home */
+#home {
+    width: 80vw;
+    margin: 0.2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 1.25rem;
+    font-size: 1.25vw;
+}
+
+#home img {
+    width: 20%;
+    border-radius: 100%;
+}
+
+#home a {
+    padding: 1.25vw;
+    background-color: #AC3B61;
+    color: #EEE2DC;
+    border-radius: 10px;
+    font-size: 0.9vw;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+
+#home a:hover {
+    background-color: #fff;
+    border: 1px solid #AC3B61;
+    color: #AC3B61;
+}
+
+/* About */
+
+#about {
+    width: 80vw;
+    margin: 0.5rem auto;
+    font-size: 1vw;
+    text-align: center;
+    padding: 0.75rem;
+}
+
+/* Experience */
+
+#experience .experience-items {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 0.2rem auto;
+}
+
+#experience .experience-items .experience-item{
+    padding: 0.5rem;
+}
+
+#experience .experience-items .experience-item:hover{
+    background-color: #F2F2F2;
+}
+
+#experience h2 {
+    margin: 0.75rem;
+}
+
+#experience p {
+    font-size: 0.5rem;
+}
+
+/* Contact */
+#contact h2 {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+#contact form {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem auto;
+    font-size: 0.75rem;
+}
+
+#contact form textarea {
+    resize:none;
+    font-size: 0.5rem;
+    padding: 0.25rem;
+    margin-top: 0.2rem;
+}
+
+#contact form input {
+    resize:none;
+    font-size: 0.5rem;
+    padding: 0.25rem;
+    margin-top: 0.2rem;
+}
+
+#contact form label {
+    font-size: 0.5rem;
+    padding: 0.25rem;
+    margin-top: 0.2rem;
+}
+
+#contact form .btn {
+    padding: 0.5rem;
+    background-color: #AC3B61;
+    color: #EEE2DC;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    border: none;
+}
+
+#contact form .btn:hover {
+    background-color: #fff;
+    border: 1px solid #AC3B61;
+    color: #AC3B61;
+}
